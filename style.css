@@ -1,0 +1,125 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.jumbotron {
+  background-image: url(download.jfif);
+  background-repeat: no-repeat;
+  background-position: top center;
+  /* height: 600px; */
+  padding: 6rem 0 0 0;
+
+  /* background-color: #9bb5ed; */
+}
+section {
+  padding-top: 5rem;
+}
+#hero span {
+  color: #fff;
+  padding-bottom: 4px;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #149ddd;
+}
+/* About */
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.about .content ul strong {
+  margin-right: 10px;
+}
+
+.about .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #149ddd;
+  line-height: 0;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Skill */
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+.val {
+  color: white;
+}
+
+.skills .progress .skill {
+  padding: 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #050d18;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #dce8f8;
+  height: 10px;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: 0.9s;
+  background-color: #149ddd;
+}
+.skills {
+  color: white;
+}
+#skills {
+  background-color: #5000ca;
+}
+.text-white a {
+  text-decoration: none;
+}
+
+/* ICON FOOTER */
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  width: 2rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.2rem;
+  margin-right: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+.social-icons .social-icon:hover {
+  background-color: #153da4;
+}
+.dev-icons li {
+  font-size: 6rem;
+  margin: 0.8rem;
+}
